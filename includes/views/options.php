@@ -60,7 +60,6 @@ function footnotes_options() {
           <label for="post_type_post">Show Footnote in Posts:</label>
           <input type="checkbox" id="post_type_post"  name="post_type_post" value="1" <?php checked( 1, $post, true ) ?>/>
         </p>
-        /
          <p class="form-field">
           <label for="post_type_post">Show Footnote in Pages:</label>
           <input type="checkbox" id="post_type_page"  name="post_type_page" value="1" <?php checked( 1, $page, true ) ?>/>
