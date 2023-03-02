@@ -12,6 +12,7 @@ foreach ( glob( (__DIR__) . '/functions/*.php' ) as $filename ) {
     require_once $filename;
 }
 
-// require options page
-require_once  glob( (__DIR__) . '/views/options.php');
-
+// require views
+foreach ( glob( (__DIR__) . '/views/*.php' ) as $filename ) {
+    require_once $filename;
+}
