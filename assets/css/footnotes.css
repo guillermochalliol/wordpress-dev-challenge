@@ -1,0 +1,24 @@
+#linksTable_wrapper{
+    margin:24px;
+}
+.dataTables_length select{
+    width:50px;
+}
+#linksTable td { 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    
+}
+#linksTable td:first-child,  #linksTable td:nth-child(3){
+    color: rgb(64, 135, 230);
+    text-decoration: none;
+}
+ #linksTable td:nth-child(3) a{
+     text-decoration: none;
+ }
+#linksTable td:nth-child(2){
+    color:orangered;
+    font-weight: bold;
+}
